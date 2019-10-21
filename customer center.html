@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>啥麼傻賣</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html" alt="連結到啥麼傻賣的首頁">
+        <img class="img-fluid" src="logo.jpg" width="36px" height="36px" alt="HTML HOME"  margin:0>
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">首頁</a></li>
+        <li><a href="forum.html">討論區</a></li>
+        <li><a href="failure notification.html">故障通報</a></li>
+        <li><a href="customer center.html">顧客中心</a></li>
+        <li><a href="vendor cooperation.html">廠商合作</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> 登入</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> 購物車</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>顧客中心</h1>      
+    <p>歡迎您光臨！請選擇服務項目：</p>
+  </div>
+</div><br><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">訂單問題</div>
+        <div class="panel-body">查訂單及問答<br><br>
+        退訂 / 退款查詢<br><br>
+        換貨 / 查詢<br><br>
+        買過商品清單<br><br></div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">個人資料管理</div>
+        <div class="panel-body">會員中心</div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">常見問題</div>
+        <div class="panel-body">新手上路<br><br>
+        購物流程/付款說明<br><br>
+        常見問題QA<br><br></div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+
+
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
